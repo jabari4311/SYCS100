@@ -126,6 +126,27 @@ def bsearch (searchList, element):
 #myList = [22,33,44,55,66,77,88,99]              #declaration and assignment of myList 
 #print bsearch(myList,9)                         #function call to bsearch passing the variable myList
 
+# Cesa Salaam bsearch
+def bSearch (List, element):  # defining function
+    bottom = 0                
+    top = len(List) #Variabl
+    middle = 0 #Variable to split list in half
+    if element < List[len(List)- 1] and element >= List[0]: # checks to see if the element is within the range of the List.
+        if top != 0: #Makes sure the List isnt empty.
+            while top >= bottom : # While loop to repeat the Binary search
+                middle = (bottom+top)//2
+                if List[middle] == element: #if statement to check if the element has been found
+                    return middle
+                elif List[middle] < element:
+                    bottom = middle + 1
+                else:
+                    top = middle - 1
+        else:
+            return str(-1)+  " Your element was not found in the list,sorry try again." #This statement is printed when the element is not found.
+    else:
+        return str(-1) + " Your element was not found in the list, sorry try again." #This statement is printed when the element is not found.
+#This is the test list: myList = [9,10,12,14]
+#Call of the function using myList and the element 9: print bSearch(myList,9)
 
 
 
