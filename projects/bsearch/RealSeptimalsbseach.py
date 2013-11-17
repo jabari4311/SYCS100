@@ -32,8 +32,21 @@ def bsearch(list,search):
     else:
       return mid
       
-      
-      
+# Hannah's new update 
+def search(item,numbers):
+        searchend=len(numbers)                                          # end of search
+        search=0                                                                        # start of search
+        found=False
+        while(found==False):
+                scope=(search+searchend)/2                              # scope to hold span of search
+                if(item<numbers[scope]):
+                        searchend=scope-1
+                elif(item>numbers[scope]):
+                        search=scope+1
+                else:                                                                   # if its is not greater or less than it is equal to
+                        found=True
+                        return scope                                            # return correct index
+
       
       
 #Hannah's bsearch
