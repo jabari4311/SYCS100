@@ -1,3 +1,4 @@
+
 # Alston Clark
 
 def bsearch(list,search):
@@ -12,12 +13,17 @@ def bsearch(list,search):
   
  
 
-  if (top >= search >= bottom):
+  if (top < search) and (search < bottom):
     return -1 
-
+  
+  if (len(list) == 0):
+    return -1 
+    
    
-  while ( bottom != top):
+  while ( bottom <= top):
     # when bottom == top then you have found the index
+
+
 
     mid = (top + bottom) / 2
 
@@ -29,8 +35,11 @@ def bsearch(list,search):
       bottom = mid + 1
 
 
+    
+
     else:
       return mid
+
       
 # Hannah's new update 
 def search(item,numbers):
