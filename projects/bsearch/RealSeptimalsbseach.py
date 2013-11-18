@@ -205,7 +205,26 @@ def  bsearch(ist, item):
         else:
             return -1
 
+# Hannah M. Clark 
 
+def search(item,numbers):
+
+	if(len(numbers)==0):
+		return -1 
+	searchend=len(numbers)					
+	search=0							
+	found=False
+	notthere=False
+	while(found==False and search<searchend):
+		scope=(search+searchend)/2 			
+		if(item<numbers[scope]):
+			searchend=scope-1
+		elif(item>numbers[scope]):
+			search=scope+1
+		else:									
+			found=True
+			return scope 
+	return -1
 
 
 
