@@ -1,4 +1,3 @@
-
 # Alston Clark
 
 def bsearch(list,search):
@@ -154,6 +153,22 @@ def bsearch (List, element): # defining the function
                         top = middle - 1
         else:
             return str(-1) + " Your element was not found in the list, sorry try again...."
+
+#Sarah Jones
+def bsearch( lista, element):
+    start = 0
+    end = len(lista) - 1
+    while (end >= start):
+          mid = (start + end) / 2
+          if (lista[mid] < element):
+            start = mid + 1
+          elif lista[mid] > element:
+            end = mid - 1
+          else:
+            return mid
+            
+        
+    return -1
 
 
 
