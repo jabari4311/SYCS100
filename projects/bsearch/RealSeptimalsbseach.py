@@ -259,6 +259,35 @@ def bsearch(list,item):
               return search
 
 
+#Courtneys Code
+
+def bsearch(listt,e):
+
+
+    start = 0
+
+    end = len(listt)-1
+
+    mid = (start + end) /2 #needed to define your mid point not e
+
+
+    while (e != mid and start<end): 
+
+        if e < listt[mid]: #if the element being searched for is less than your midpoint
+
+            end = mid-1
+
+            mid = (start + end)/2
+
+        elif e> listt[mid]: #if element being searched for is greater than your midpoint
+            start = mid + 1
+            mid = (start + end) /2
+
+        else:
+
+            return mid #index of found element is held by mid
+
+    return -1   #element was not found 
 
 
 
