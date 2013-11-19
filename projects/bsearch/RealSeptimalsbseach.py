@@ -1,3 +1,20 @@
+
+''' Group 5 Members:
+
+Hannah Clark
+Lena Alston
+Cesa Salaam
+Sarah Jones
+Jabari 
+Contee
+Attiyah Laneir
+Alston Clark
+'''
+
+
+
+
+
 # Alston Clark
 
 def bsearch(list,search):
