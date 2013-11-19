@@ -6,7 +6,7 @@ Lena Alston
 Cesa Salaam
 Sarah Jones
 Jabari 
-Contee
+Contee Cameron 
 Courtney Gaines
 Attiyah Laneir
 Alston Clark
