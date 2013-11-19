@@ -151,7 +151,7 @@ def bsearch (searchList, element):
 #myList = [22,33,44,55,66,77,88,99]              #declaration and assignment of myList 
 #print bsearch(myList,9)                         #function call to bsearch passing the variable myList
 
-
+#Cesa Salaam.
 def bsearch (List, element):
     bottom = 0
     top = len(List)-1
