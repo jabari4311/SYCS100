@@ -20,7 +20,7 @@ def bsearch(list,search):
     
    
   while ( bottom <= top):
-    # when bottom == top then you have found the index
+  
 
 
 
