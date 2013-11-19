@@ -1,11 +1,11 @@
 
 ''' Group 5 Members:
 
-Hannah Clark
+Hannah M. Clark
 Lena Alston
 Cesa Salaam
 Sarah Jones
-Jabari 
+Jabari Olatunji 
 Contee Cameron 
 Courtney Gaines
 Attiyah Laneir
